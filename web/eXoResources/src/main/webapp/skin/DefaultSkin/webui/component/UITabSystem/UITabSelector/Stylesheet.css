@@ -138,10 +138,5 @@
 
 .UIAccessGroup .UIGrid {
 	width: 95%;
-	margin: auto;
 }
 
-.UIAccessGroup .UIPageIterator {
-	width: 95%;
-	margin: 5px auto 0px auto;
-}
