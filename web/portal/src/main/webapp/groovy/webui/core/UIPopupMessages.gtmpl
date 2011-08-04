@@ -31,8 +31,8 @@
 								<div class="LeftTab">
 									<div class="RightTab">
 		""";
-		if(messages.size() > 0) println "<div class=\"MiddleTab\" onclick=\"eXo.webui.UIHorizontalTabs.displayTabContent(this)\"><div class=\"TabIcon ${title}Icon\">"+_ctx.appRes("UIPopupMessages.label."+"${title}") +"</div></div>";
-		else println "<div class=\"MiddleTab\"><div class=\"TabIcon ${title}Icon\">" + _ctx.appRes("UIPopupMessages.label."+"${title}") + "</div></div>";
+		if(messages.size() > 0) println "<div class=\"MiddleTab\" onclick=\"eXo.webui.UIHorizontalTabs.displayTabContent(this)\"><a class=\"TabIcon ${title}Icon\">"+_ctx.appRes("UIPopupMessages.label."+"${title}") +"</a></div>";
+		else println "<div class=\"MiddleTab\"><a class=\"TabIcon ${title}Icon\">" + _ctx.appRes("UIPopupMessages.label."+"${title}") + "</a></div>";
 		println """
 									</div>
 								</div>

@@ -299,14 +299,6 @@
 	padding: 0px;
 }
 
-.UIPortalComposer .UIHorizontalTabs .TabsContainer {
-	background: url(background/CenterHorizontalTabs.gif) repeat-x left bottom;
-	height: 25px;
-}
-
-.UIPortalComposer .UITabPane .UITabContentContainer {
-}
-
 .UIPortalComposer .UITabPane .UITabContentContainer .UITabContent {
 	background: none;
 	border: none;

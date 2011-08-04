@@ -20,15 +20,6 @@
 .UIPopupMessages {
 }
 
-.UIPopupMessages .UIHorizontalTabs {
-	height: 31px;
-	background: url('background/MessageTabBar.gif') repeat-x bottom;
-}
-
-.UIPopupMessages .UIHorizontalTabs .TabsContainer {
-	height: 31px;
-}
-
 .UIPopupMessages .UITabPane .UITabContent {
 	border: none;
 }
@@ -174,6 +165,8 @@
 
 .UIPopupWindow .ExoMessageDecorator .UITabContentContainer {
 	background: white;
+	border: 1px solid  #AEAEAE;
+	border-top:0;
 }
 
 .UIPopupWindow .ExoMessageDecorator .UITabContentContainer .UITabContent {

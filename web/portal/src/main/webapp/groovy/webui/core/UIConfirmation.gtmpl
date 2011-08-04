@@ -30,7 +30,7 @@
 								<div class="LeftTab">
 									<div class="RightTab">
 		""";
-		println "<div class=\"MiddleTab\" onclick=\"eXo.webui.UIHorizontalTabs.displayTabContent(this)\"><div class=\"TabIcon ${title}Icon\">"+_ctx.appRes("UIPopupMessages.label."+"${title}") +"</div></div>";
+		println "<div class=\"MiddleTab\" onclick=\"eXo.webui.UIHorizontalTabs.displayTabContent(this)\"><a class=\"TabIcon ${title}Icon\">"+_ctx.appRes("UIPopupMessages.label."+"${title}") +"</a></div>";
 		println """
 									</div>
 								</div>
@@ -89,7 +89,7 @@
 									<div class="UIHorizontalTabs">
 										<div class="TabsContainer">
 										<%	
-											boolean flag = true
+											boolean flag = false
 											flag = printTab(message, "Warning", flag);
 										%>
 										</div>
