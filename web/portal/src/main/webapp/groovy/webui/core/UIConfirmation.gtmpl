@@ -73,26 +73,24 @@
 	</div>
 
 	<div class="UIWindowContent">
-		<div class="PopupContent">
-			<div class="UIPopupMessages"> 
-				<div class="UIHorizontalTabs">
-					<div class="TabsContainer">
-					<%	
-						boolean flag = false
-						flag = printTab(message, "Warning", flag);
-					%>
-					</div>
+		<div class="PopupContent UIPopupMessages">
+			<div class="UIHorizontalTabs">
+				<div class="TabsContainer">
+				<%	
+					boolean flag = false
+					flag = printTab(message, "Warning", flag);
+				%>
 				</div>
-				<div class="UITabContentContainer">
-					<%
-						printMessage(message, "ErrorMessage");
-					%>
-				</div>
-				<div class="UIAction MessageActionBar">
-					<%
-						printAction(actions);
-					%>
-				</div>
+			</div>
+			<div class="UITabContentContainer">
+				<%
+					printMessage(message, "ErrorMessage");
+				%>
+			</div>
+			<div class="UIAction MessageActionBar">
+				<%
+					printAction(actions);
+				%>
 			</div>
 		</div>
 	</div>
