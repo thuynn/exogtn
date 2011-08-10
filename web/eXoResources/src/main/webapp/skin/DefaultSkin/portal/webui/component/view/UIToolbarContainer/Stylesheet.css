@@ -20,6 +20,8 @@
 .UIToolbarContainer {	
 	padding: 0px;
 	height: auto;
+	position:relative;
+	z-index:99;
 }
 .UIToolbarContainer ul {
 	padding:0;
